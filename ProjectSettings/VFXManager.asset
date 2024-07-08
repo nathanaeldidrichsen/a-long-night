@@ -4,6 +4,7 @@
 VFXManager:
   m_ObjectHideFlags: 0
   m_IndirectShader: {fileID: 0}
+  m_RenderPipeSettingsPath: 
   m_CopyBufferShader: {fileID: 0}
   m_SortShader: {fileID: 0}
   m_StripUpdateShader: {fileID: 0}
