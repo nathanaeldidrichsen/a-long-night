@@ -332,6 +332,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CirclePixel_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 70
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7554f2d648e9797428f196f45fb86584
+      internalID: 1081738328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CirclePixel_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af35cff9bff8c54b8cb37aad8d675ab
+      internalID: -1912633861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -345,6 +387,8 @@ TextureImporter:
     nameFileIdTable:
       CirclePixel_0: -1527550527
       CirclePixel_1: 618373168
+      CirclePixel_10: 1081738328
+      CirclePixel_11: -1912633861
       CirclePixel_2: -495724257
       CirclePixel_3: 1982689966
       CirclePixel_4: 44183707

@@ -121,18 +121,10 @@ public class Harvestable : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check the type of harvestable object and the tag of the other collider
-        // if ((harvestableType == HarvestableType.Tree && other.CompareTag("Axe")) ||
-        //     (harvestableType == HarvestableType.Ore && other.CompareTag("Pickaxe")))
-        // {
-        //     // Take damage (you can adjust the damage amount as needed)
-        //     TakeDamage(10f); // Example damage amount
-        // }
-
-
-        if ((harvestableType == HarvestableType.Tree && other.CompareTag("PlayerAttack")) ||
-    (harvestableType == HarvestableType.Ore && other.CompareTag("PlayerAttack")))
-        {
-            TakeDamage(1); // Example damage amount
-        }
+         if ((harvestableType == HarvestableType.Tree && other.CompareTag("Axe")) ||
+             (harvestableType == HarvestableType.Ore && other.CompareTag("Pickaxe")))
+         {
+             TakeDamage(1);
+         }
     }
 }

@@ -8,6 +8,7 @@ public class Hearth : MonoBehaviour, Buildable
 
     // List to keep track of all buildings
     private List<Building> buildings = new List<Building>();
+    public GameObject fencePrefab;
 
     void Awake()
     {
@@ -21,6 +22,36 @@ public class Hearth : MonoBehaviour, Buildable
         {
             Destroy(gameObject);
         }
+    }
+
+
+    public void SpawnFence(Transform startEdge)
+    {
+        // Get the start and end positions
+        Vector3 startPosition = startEdge.position;
+        Vector3 endPosition = transform.position;
+
+        // Calculate the distance between the start and end positions
+        float distance = Vector3.Distance(startPosition, endPosition);
+
+        // Instantiate the fence prefab
+        GameObject fence = Instantiate(fencePrefab, startPosition, Quaternion.identity, transform);
+
+        // Calculate the direction from start to end
+        Vector3 direction = (endPosition - startPosition).normalized;
+
+        // Set the position and size of the fence
+        fence.transform.position = (startPosition + endPosition) / 2; // Set position to the midpoint
+        SpriteRenderer sr = fence.GetComponent<SpriteRenderer>();
+
+        if (sr != null)
+        {
+            // Assuming the fence sprite is 1 unit wide
+            sr.size = new Vector2(distance, sr.size.y);
+        }
+
+        // Rotate the fence to align with the direction
+        fence.transform.right = direction;
     }
 
     // Function to add a building to the list

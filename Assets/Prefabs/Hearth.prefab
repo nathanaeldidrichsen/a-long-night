@@ -208,6 +208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff61629d78a696b4d9f290da9219f32e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fencePrefab: {fileID: 7762683782559903912, guid: dddf3b8696ce63b4393b909448c661d5,
+    type: 3}
 --- !u!114 &4592467100061684284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,6 +292,7 @@ MonoBehaviour:
   currentUpgradeNumber: 0
   currentBuilding: {fileID: 1494945033653714145}
   isCrate: 0
+  isDestroyable: 1
 --- !u!1 &8476490469821058811
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,8 +29,8 @@ public class Ejector : MonoBehaviour
         }
         else
         {
-            rb.isKinematic = true;
-            GetComponent<Collider2D>().enabled = false;
+            //rb.isKinematic = true;
+            //GetComponent<Collider2D>().enabled = false;
             collectableTrigger.enabled = true;
         }
     }
