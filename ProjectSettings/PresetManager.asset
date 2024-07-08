@@ -4,8 +4,12 @@
 PresetManager:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 2
   m_DefaultPresets: {}
+=======
+  m_DefaultList: []
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   m_DefaultList: []
 >>>>>>> parent of d447484 (Merge branch 'main' into home)

@@ -74,15 +74,21 @@ NavMeshProjectSettings:
   - serializedVersion: 2
     agentTypeID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.75
 =======
+=======
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
     agentRadius: 1
     agentHeight: 3
     agentSlope: 50
     agentClimb: 3.76
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0

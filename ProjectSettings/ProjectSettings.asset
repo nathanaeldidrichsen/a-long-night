@@ -43,8 +43,13 @@ PlayerSettings:
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
+=======
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -85,7 +90,11 @@ PlayerSettings:
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   runInBackground: 0
+=======
+  runInBackground: 1
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   runInBackground: 1
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
@@ -339,6 +348,9 @@ PlayerSettings:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
@@ -647,8 +659,13 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroPackageName: A long night
   metroPackageVersion: 
+=======
+  metroPackageName: Template2D
+  metroPackageVersion: 1.0.0.0
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   metroPackageName: Template2D
   metroPackageVersion: 1.0.0.0
@@ -659,9 +676,15 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroApplicationDescription: A long night
   wsaImages: {}
   metroTileShortName: 
+=======
+  metroApplicationDescription: Template_2D
+  wsaImages: {}
+  metroTileShortName: InventorySystem
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   metroApplicationDescription: Template_2D
   wsaImages: {}

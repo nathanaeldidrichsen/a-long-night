@@ -4,7 +4,11 @@
 PhysicsManager:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 13
+=======
+  serializedVersion: 7
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   serializedVersion: 7
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
@@ -19,8 +23,13 @@ PhysicsManager:
   m_QueriesHitTriggers: 1
   m_EnableAdaptiveForce: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ClothInterCollisionDistance: 0.1
   m_ClothInterCollisionStiffness: 0.2
+=======
+  m_ClothInterCollisionDistance: 0
+  m_ClothInterCollisionStiffness: 0
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   m_ClothInterCollisionDistance: 0
   m_ClothInterCollisionStiffness: 0

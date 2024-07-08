@@ -18,6 +18,9 @@ TagManager:
   - Hammer
   - PlayerAttack
   - Coin
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
   layers:
   - Default
@@ -54,6 +57,7 @@ TagManager:
   - 
   m_SortingLayers:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - name: -6
     uniqueID: 691931013
     locked: 0
@@ -72,16 +76,22 @@ TagManager:
   - name: -1
     uniqueID: 2095522615
 =======
+=======
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
   - name: Background
     uniqueID: 3214659087
     locked: 0
   - name: Midground
     uniqueID: 1418060859
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   - name: Interactable
     uniqueID: 1525325793
@@ -104,10 +114,15 @@ TagManager:
   - name: 6
     uniqueID: 743954713
 =======
+=======
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
   - name: Buildings
     uniqueID: 2267651097
     locked: 0
   - name: Player
     uniqueID: 290027561
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
     locked: 0

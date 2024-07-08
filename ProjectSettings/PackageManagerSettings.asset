@@ -3,7 +3,11 @@
 --- !u!114 &1
 MonoBehaviour:
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ObjectHideFlags: 53
+=======
+  m_ObjectHideFlags: 61
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
 =======
   m_ObjectHideFlags: 61
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
@@ -17,16 +21,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EnablePreReleasePackages: 0
   m_AdvancedSettingsExpanded: 1
   m_ScopedRegistriesSettingsExpanded: 1
   m_SeeAllPackageVersions: 0
   m_DismissPreviewPackagesInUse: 0
 =======
+=======
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
   m_EnablePreviewPackages: 0
   m_EnablePackageDependencies: 0
   m_AdvancedSettingsExpanded: 1
   m_ScopedRegistriesSettingsExpanded: 1
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
   oneTimeWarningShown: 0
   m_Registries:
@@ -64,4 +74,7 @@ MonoBehaviour:
     m_Scopes:
     - 
     m_SelectedScopeIndex: 0
+<<<<<<< HEAD
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
+=======
 >>>>>>> parent of d447484 (Merge branch 'main' into home)
