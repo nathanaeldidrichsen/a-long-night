@@ -65,11 +65,27 @@ public class Player : MonoBehaviour
         {
                 anim.SetTrigger("Attack");
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            anim.Play("Build");
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            anim.Play("Mine");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            anim.Play("Chop");
+        }
     }
 
     void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+
     }
 
 

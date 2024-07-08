@@ -8,4 +8,10 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Animals
   m_Controller: {fileID: 9100000, guid: 9d1f67f35d3b07441aff6382e461786c, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fe2cb0c3d9e96e647aa4d5869cfd009c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7567c73ccf75e084db8aea309eb0c6c2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 375e3afca0f7e0f46bf8da6ab55ea7e5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9e4a8a43b963074458507b72731c8e9c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 92f0426c8ee246548be2b4685bcbdc06, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d69dd6abc49dd7d42bd6d78e18bb9f70, type: 2}
