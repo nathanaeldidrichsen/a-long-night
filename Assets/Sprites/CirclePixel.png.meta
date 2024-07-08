@@ -374,6 +374,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CirclePixel_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 102
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f0b7d31e49bd64aa92b264f41ef542
+      internalID: -578545959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CirclePixel_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 102
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd754564f8e5e3047ba4dd1e59be0001
+      internalID: 599474734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CirclePixel_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 96
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc607630b6b9f48990f31072f2abf6
+      internalID: -845862414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -389,6 +452,9 @@ TextureImporter:
       CirclePixel_1: 618373168
       CirclePixel_10: 1081738328
       CirclePixel_11: -1912633861
+      CirclePixel_12: -578545959
+      CirclePixel_13: 599474734
+      CirclePixel_14: -845862414
       CirclePixel_2: -495724257
       CirclePixel_3: 1982689966
       CirclePixel_4: 44183707
