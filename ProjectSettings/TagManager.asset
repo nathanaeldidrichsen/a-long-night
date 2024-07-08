@@ -4,10 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Pickaxe
   - Axe
   - Hammer
   - Enemy
+=======
+  - Drop
+  - Enemy
+  - PlayerStructure
+  - Axe
+  - Pickaxe
+  - Hammer
+  - PlayerAttack
+  - Coin
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
   layers:
   - Default
   - TransparentFX
@@ -42,6 +53,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< HEAD
   - name: -6
     uniqueID: 691931013
     locked: 0
@@ -59,10 +71,18 @@ TagManager:
     locked: 0
   - name: -1
     uniqueID: 2095522615
+=======
+  - name: Background
+    uniqueID: 3214659087
+    locked: 0
+  - name: Midground
+    uniqueID: 1418060859
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
   - name: Interactable
     uniqueID: 1525325793
     locked: 0
@@ -83,4 +103,11 @@ TagManager:
     locked: 0
   - name: 6
     uniqueID: 743954713
+=======
+  - name: Buildings
+    uniqueID: 2267651097
+    locked: 0
+  - name: Player
+    uniqueID: 290027561
+>>>>>>> parent of d447484 (Merge branch 'main' into home)
     locked: 0
