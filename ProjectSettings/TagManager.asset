@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pickaxe
+  - Axe
+  - Hammer
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: -6
+    uniqueID: 691931013
+    locked: 0
+  - name: -5
+    uniqueID: 1777031995
+    locked: 0
+  - name: -4
+    uniqueID: 1688832995
+    locked: 0
+  - name: -3
+    uniqueID: 3430301461
+    locked: 0
+  - name: -2
+    uniqueID: 1602871323
+    locked: 0
+  - name: -1
+    uniqueID: 2095522615
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Interactable
+    uniqueID: 1525325793
+    locked: 0
+  - name: 1
+    uniqueID: 1850539887
+    locked: 0
+  - name: 2
+    uniqueID: 457407295
+    locked: 0
+  - name: 3
+    uniqueID: 4222756463
+    locked: 0
+  - name: 4
+    uniqueID: 2753015089
+    locked: 0
+  - name: 5
+    uniqueID: 1490819369
+    locked: 0
+  - name: 6
+    uniqueID: 743954713
+    locked: 0
