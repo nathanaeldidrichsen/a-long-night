@@ -18,7 +18,7 @@ public class InventoryManager : MonoBehaviour
     public bool isHoldingItem;
 
 
- private void Awake()
+    private void Awake()
     {
         if (Instance == null)
         {
@@ -30,7 +30,7 @@ public class InventoryManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-                for (int i = 0; i < numberOfSlots; i++)
+        for (int i = 0; i < numberOfSlots; i++)
         {
             GameObject slot = Instantiate(slotPrefab, inventoryPanel.transform);
             InventorySlot inventorySlot = slot.GetComponent<InventorySlot>();

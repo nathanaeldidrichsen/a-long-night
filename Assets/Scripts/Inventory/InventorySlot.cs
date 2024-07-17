@@ -16,7 +16,8 @@ public class InventorySlot : MonoBehaviour
     {
         canvasGroup = GetComponent<CanvasGroup>();
         // button.onClick.AddListener(OnClick);
-        ClearSlot();
+        // ClearSlot();
+        RefreshSlot();
     }
 
     public void AddItem(Item newItem, int amount)
@@ -104,6 +105,29 @@ public class InventorySlot : MonoBehaviour
         if (buttonsPanel != null)
         {
             buttonsPanel.SetActive(false);
+        }
+    }
+
+        public void RefreshSlot()
+    {
+        if (item == null)
+        {
+            ClearSlot();
+        }
+        else
+        {
+            icon.enabled = true;
+            icon.sprite = item.itemIcon;
+
+            if (item.isStackable && quantity > 0)
+            {
+                quantityText.enabled = true;
+                quantityText.text = quantity.ToString();
+            }
+            else
+            {
+                quantityText.enabled = false;
+            }
         }
     }
 

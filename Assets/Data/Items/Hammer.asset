@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 926dd28c4bffe7d4da021e4edb4a4a1b, type: 3}
   m_Name: Hammer
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Hammer
   itemIcon: {fileID: 21300000, guid: 3db35931902f85e41926307feeab397a, type: 3}
   isStackable: 1
-  quantity: 1
-  tooltype: 0
+  tooltype: 1

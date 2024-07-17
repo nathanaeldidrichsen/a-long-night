@@ -458,6 +458,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CirclePixel_16
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 112
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf2ca3fce2334439abe820010c0f56
+      internalID: -1485888725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -477,6 +498,7 @@ TextureImporter:
       CirclePixel_13: 599474734
       CirclePixel_14: -845862414
       CirclePixel_15: -1230243917
+      CirclePixel_16: -1485888725
       CirclePixel_2: -495724257
       CirclePixel_3: 1982689966
       CirclePixel_4: 44183707
