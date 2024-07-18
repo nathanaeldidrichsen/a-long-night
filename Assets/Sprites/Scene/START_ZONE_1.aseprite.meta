@@ -1095,7 +1095,7 @@ ScriptedImporter:
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 1
         width: 640
         height: 360
       spriteId: 8bfb3fb757302d44c85a274cae7c570f
@@ -1120,25 +1120,43 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   - layerIndex: 2
-    guid: 1317222746
-    name: Layer 1
+    guid: -126696026
+    name: NY_MOUNT1
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 1
+    - name: NY_MOUNT1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 640
-        height: 232
-      spriteId: 951b061f7a2c1894a8779e3d86d0b1b3
+        height: 361
+      spriteId: 19e048c8758e9524ba4917b860a37f6d
     linkedCells: []
     parentIndex: -1
   - layerIndex: 3
-    guid: -1241733254
+    guid: 1317221554
+    name: Layer 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 1317222748
+    name: Layer 1
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells: []
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: -1241733252
     name: mount
     layerFlags: 3
     layerType: 0
@@ -1152,11 +1170,11 @@ ScriptedImporter:
         y: 0
         width: 640
         height: 274
-      spriteId: a6f9223761d9f5b4db514be8999999ce
+      spriteId: a5e37ebac13839b41a30d19b7c90b99c
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 4
-    guid: -1178930724
+  - layerIndex: 6
+    guid: -1178930722
     name: clouds
     layerFlags: 3
     layerType: 0
@@ -1170,11 +1188,11 @@ ScriptedImporter:
         y: 265
         width: 383
         height: 58
-      spriteId: 0e12f16e25efc01469b2aca07e4fe0fb
+      spriteId: d2d0aa28c55e1914f8510b80ca596db6
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 5
-    guid: -1407624832
+  - layerIndex: 7
+    guid: -1407624830
     name: red_trees
     layerFlags: 3
     layerType: 0
@@ -1188,11 +1206,11 @@ ScriptedImporter:
         y: 145
         width: 495
         height: 119
-      spriteId: c7bf52f8f537c7d4cb294ec8a36630b3
+      spriteId: dd07cbe9b4152224f9fd556ee6c33acf
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 6
-    guid: 1739000037
+  - layerIndex: 8
+    guid: 1739000043
     name: trees 2
     layerFlags: 3
     layerType: 0
@@ -1206,11 +1224,11 @@ ScriptedImporter:
         y: 147
         width: 635
         height: 111
-      spriteId: 82320c585f922714784175bad4330e6c
+      spriteId: ebbe37d473639b946826327d820e5e64
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 7
-    guid: 178696784
+  - layerIndex: 9
+    guid: 178696798
     name: HILL_1
     layerFlags: 3
     layerType: 0
@@ -1224,11 +1242,11 @@ ScriptedImporter:
         y: 0
         width: 640
         height: 198
-      spriteId: 7f39c9d11544cbf4b9376f7da236415b
+      spriteId: 5a027ef3a15fedb4abd1c7864e5e07ae
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 8
-    guid: 1659395636
+  - layerIndex: 10
+    guid: 1659395638
     name: BUSH
     layerFlags: 3
     layerType: 0
@@ -1242,11 +1260,11 @@ ScriptedImporter:
         y: 0
         width: 640
         height: 173
-      spriteId: f9e6d7dae71def4448f2c1ec08a828f4
+      spriteId: 6891c6a6d37f3cc4ba5db5f3e18b1145
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 9
-    guid: 565138756
+  - layerIndex: 11
+    guid: 565138758
     name: Ground
     layerFlags: 3
     layerType: 0
@@ -1260,11 +1278,65 @@ ScriptedImporter:
         y: 0
         width: 640
         height: 157
-      spriteId: 9a1848e61df3ce347aacc25f745a3fed
+      spriteId: 3604f7d656c296e48867dd7c8d936e30
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 10
-    guid: 1195623029
+  - layerIndex: 12
+    guid: -2064485758
+    name: wall
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: wall
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 350
+        y: 154
+        width: 154
+        height: 26
+      spriteId: 7185634d25994da44af0016fad576833
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 13
+    guid: 1870078577
+    name: rocks
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: rocks
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 154
+        width: 480
+        height: 37
+      spriteId: 64d9e90f3a3dafd4eb63779038c47190
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 14
+    guid: -414616987
+    name: fence
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: fence
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 289
+        y: 154
+        width: 1
+        height: 10
+      spriteId: 936717ff49164fb468b283651d1be990
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 15
+    guid: 1195623024
     name: Sign
     layerFlags: 3
     layerType: 0
@@ -1278,11 +1350,29 @@ ScriptedImporter:
         y: 154
         width: 8
         height: 11
-      spriteId: 6a213edea63a0b34782d61a4332a0ffa
+      spriteId: 8c6eb7f6c072ac846aaabb1aee0d9e92
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 12
-    guid: -2020869775
+  - layerIndex: 16
+    guid: -907712113
+    name: PLayer
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: PLayer
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 223
+        y: 154
+        width: 16
+        height: 17
+      spriteId: 194c72e36eef6ef49866076be84f0b98
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 17
+    guid: -2020869780
     name: NPC
     layerFlags: 3
     layerType: 0
@@ -1296,7 +1386,43 @@ ScriptedImporter:
         y: 154
         width: 12
         height: 18
-      spriteId: 8fe51fe4cd1f6a043ab4ed889d5386d9
+      spriteId: dddcd3de56f25c148bd6fd3c8c3fbd23
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 18
+    guid: -1054616481
+    name: chicken
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: chicken
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 154
+        width: 194
+        height: 10
+      spriteId: d69da8d58a4aac843a8955fa47d25686
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 19
+    guid: -1909912683
+    name: boar
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boar
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 318
+        y: 154
+        width: 111
+        height: 35
+      spriteId: 7eebda2c68279d642ac6133d805818df
     linkedCells: []
     parentIndex: -1
   platformSettings:
