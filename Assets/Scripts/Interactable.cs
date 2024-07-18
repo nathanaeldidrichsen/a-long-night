@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
     {
         if (playerInRange && !pressedE)
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Pressed E key");
                 if(ui != null)

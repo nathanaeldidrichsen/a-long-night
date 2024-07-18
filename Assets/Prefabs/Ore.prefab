@@ -150,7 +150,7 @@ MonoBehaviour:
   hurtParticle: {fileID: 5217967316133245773, guid: 1bdda8c664ace7e46942b4e7fa9c5a5d,
     type: 3}
   dropItems:
-  - {fileID: 1201654925091868802, guid: 28c69e015e6c21844aed85ae66ed8682, type: 3}
+  - {fileID: 6494280279307980379, guid: 81b16597b4785ac4faf71d571337a83f, type: 3}
   dropChance: 1
 --- !u!95 &-8484169322004919423
 Animator:

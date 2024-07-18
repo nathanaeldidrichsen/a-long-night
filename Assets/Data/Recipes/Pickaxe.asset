@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660626ae59be83344b66772d9f50beaa, type: 3}
+  m_Name: Pickaxe
+  m_EditorClassIdentifier: 
+  recipeName: Pickaxe
+  requiredItems:
+  - {fileID: 11400000, guid: b5cc3ab859c672c4fa675be50a82b286, type: 2}
+  - {fileID: 11400000, guid: b5cc3ab859c672c4fa675be50a82b286, type: 2}
+  - {fileID: 11400000, guid: 7cf50982c73b5824b8de4e5fb163d2c5, type: 2}
+  craftedItem: {fileID: 11400000, guid: 59a1b4b67f29c6e4fa5945963b2a89d4, type: 2}
