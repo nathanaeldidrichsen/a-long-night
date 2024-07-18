@@ -16,6 +16,7 @@ public class Health : MonoBehaviour
     // Whether the object can take damage
     private bool canTakeDamage = true;
     public GameObject hurtParticle;
+    public bool isBuilding;
 
     void Start()
     {
@@ -57,9 +58,15 @@ public class Health : MonoBehaviour
     // Method to die
     public void Die()
     {
-        // Handle the object's death (e.g., destroy the object, play an animation, etc.)
+        if(!isBuilding)
+        {
         Debug.Log(gameObject.name + " has died!");
         Destroy(gameObject); // Destroy the game object
+        }
+        else
+        {
+            gameObject.GetComponent<Building>().ResetToCrate();
+        }
     }
 
     // Coroutine for recovery time

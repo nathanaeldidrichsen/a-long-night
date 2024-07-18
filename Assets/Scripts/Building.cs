@@ -15,6 +15,7 @@ public class Building : MonoBehaviour, Buildable
     public bool isCrate = true;
     public bool isDestroyable = true;
     private Health health;
+    [SerializeField] private GameObject CrateBuilding;
 
     void Start()
     {
@@ -51,6 +52,15 @@ public class Building : MonoBehaviour, Buildable
         {
             // This block can be used for other logic if needed while the player is in range
         }
+    }
+
+    public void ResetToCrate()
+    {
+        health.currentHealth = health.maxHealth;
+        isCrate = true;
+        Destroy(currentBuilding);
+        currentBuilding = Instantiate(CrateBuilding, transform.position, Quaternion.identity, transform);
+        currentUpgradeNumber = 0;
     }
 
     void OnTriggerExit2D(Collider2D other)

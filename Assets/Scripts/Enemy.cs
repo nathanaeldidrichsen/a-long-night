@@ -27,6 +27,16 @@ public class Enemy : MonoBehaviour
     {
         anim.SetFloat("moveX", Mathf.Abs(rb.velocity.x));
 
+        if (target.GetComponent<Building>() != null && target.GetComponent<Building>().isCrate)
+        {
+            target = Hearth.Instance.transform;
+        }
+        if (target == null)
+        {
+            target = Hearth.Instance.transform;
+        }
+
+
         if (target == null)
         {
             target = Hearth.Instance.transform;
@@ -114,9 +124,9 @@ public class Enemy : MonoBehaviour
         //Make sure it's not a crate
         if (other.gameObject.CompareTag("PlayerStructure") && currentState != State.Attack)
         {
-            if(!other.gameObject.GetComponent<Building>().isCrate &&  other.gameObject.GetComponent<Building>().isDestroyable)
-            // Set new target and start attacking
-            target = other.transform;
+            if (!other.gameObject.GetComponent<Building>().isCrate && other.gameObject.GetComponent<Building>().isDestroyable)
+                // Set new target and start attacking
+                target = other.transform;
             targetHealth = other.gameObject.GetComponent<Health>();
         }
     }
