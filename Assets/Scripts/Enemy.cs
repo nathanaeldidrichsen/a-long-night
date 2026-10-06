@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        anim.SetFloat("moveX", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("moveX", Mathf.Abs(rb.linearVelocity.x));
 
         if (target.GetComponent<Building>() != null && target.GetComponent<Building>().isCrate)
         {
@@ -53,14 +53,14 @@ public class Enemy : MonoBehaviour
                 }
                 else
                 {
-                    rb.velocity = Vector2.zero;
+                    rb.linearVelocity = Vector2.zero;
                     currentState = State.Attack;
                     attackTimer = 0f;
                 }
                 break;
 
             case State.Attack:
-                rb.velocity = Vector2.zero; // Ensure the enemy stops moving while attacking
+                rb.linearVelocity = Vector2.zero; // Ensure the enemy stops moving while attacking
                 attackTimer += Time.deltaTime;
                 if (attackTimer >= attackInterval)
                 {
@@ -71,7 +71,7 @@ public class Enemy : MonoBehaviour
                 break;
 
             case State.RepositionAfterAttack:
-                rb.velocity = Vector2.zero; // Ensure the enemy stops moving immediately after the attack
+                rb.linearVelocity = Vector2.zero; // Ensure the enemy stops moving immediately after the attack
                 repositionTimer += Time.deltaTime;
                 if (repositionTimer >= repositionDelay)
                 {
@@ -98,7 +98,7 @@ public class Enemy : MonoBehaviour
 
         Vector2 direction = target.position - transform.position;
         direction.Normalize();
-        rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y); // Only move on the x-axis
+        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y); // Only move on the x-axis
         FlipEnemy(direction.x);
     }
 
@@ -109,7 +109,7 @@ public class Enemy : MonoBehaviour
 
         Vector2 direction = transform.position - target.position;
         direction.Normalize();
-        rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y); // Only move on the x-axis
+        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y); // Only move on the x-axis
     }
 
     void OnTriggerEnter2D(Collider2D other)

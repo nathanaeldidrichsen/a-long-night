@@ -73,15 +73,15 @@ public class Critter : MonoBehaviour
     {
         if (moveToTarget != null)
         {
-            anim.SetFloat("moveX", Mathf.Abs(rb.velocity.x));
+            anim.SetFloat("moveX", Mathf.Abs(rb.linearVelocity.x));
 
             Vector2 direction = ((Vector2)moveToTarget.transform.position - rb.position).normalized;
-            rb.velocity = direction * moveSpeed;
+            rb.linearVelocity = direction * moveSpeed;
 
             // Flip the critter's local scale based on the direction it's moving
-            if (rb.velocity.x > 0)
+            if (rb.linearVelocity.x > 0)
                 transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            else if (rb.velocity.x < 0)
+            else if (rb.linearVelocity.x < 0)
                 transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
 
             if (Vector2.Distance(rb.position, moveToTarget.transform.position) < 0.1f)
@@ -100,14 +100,14 @@ public class Critter : MonoBehaviour
     void MoveAwayFromPlayer()
     {
         Vector2 direction = ((Vector2)transform.position - (Vector2)playerTransform.position).normalized;
-        rb.velocity = direction * moveSpeed;
+        rb.linearVelocity = direction * moveSpeed;
 
-        anim.SetFloat("moveX", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("moveX", Mathf.Abs(rb.linearVelocity.x));
 
         // Flip the critter's local scale based on the direction it's moving
-        if (rb.velocity.x > 0)
+        if (rb.linearVelocity.x > 0)
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        else if (rb.velocity.x < 0)
+        else if (rb.linearVelocity.x < 0)
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
 
         if (Mathf.Abs(transform.position.x - playerTransform.position.x) > attackDistance)
